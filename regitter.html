@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register</title>
+    <link rel="stylesheet" href="css/newstyle.css">
+</head>
+<body>
+    <table border="2" width="600px">
+        <tr>
+            <th>Info</th>
+            <th>User Input</th>
+        </tr>
+        <tr>
+            <td><label for="fname">กรอกรหัสนักศึกษา</label></td>
+            <td><input type="text" id="sumstd" name=""></td>
+        </tr>
+        <tr>
+            <td><label for="lname">กรอกชื่อนักศึกษา</label></td>
+            <td><input type="text" id="name" name=""></td>
+        </tr>
+        <tr>
+            <td><label for="email">กรอก email</label></td>
+            <td> <input type="email"><br></td>
+        </tr>
+        <tr>
+            <td><label for="password">กรอก password</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>วัน/เดือน/ปีเกิด</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>สีที่คุณชอบ</td>
+            <td><input type="color"></td>
+        </tr>
+        <tr>
+            <td>ส่วนสูง</td>
+            <td><input type="number" min="100" max="250" >CM.</td>
+        </tr>
+        <tr>
+            <td>น้ำหนัก</td>
+            <td><input type="number" min="20" max="200" >KG.</td>
+        </tr>
+           <td>รูปภาพหน้าตรง</td> 
+           input type="file"" id=""name="ok">
+        </tr>
+         <tr>
+            <td>สาขาวิชา
+                <input type="radio"" name="major" value="INET"> <br>
+                <input type="radio"" name="major" value="ITI"> <br>
+                <input type="radio"" name="major" value="INE"> <br>
+                <input type="radio"" name="major" value="IT">  
+            </td>
+         </tr>
+         <td> อาหารที่ชอบ : </td>
+         <td>
+            <input type="checkbox" name="food1" value="ham"> ham <br> 
+            <input type="checkbox" name="food1" value="ham"> ham <br>
+            <input type="checkbox" name="food1" value="ham"> ham <br>
+          </td>
+        <tr><td> ที่อยู่ : </td>
+            <td> 
+
+            </td>
+             <td>ชั้นปี:</td>
+             <td>
+                <select name="std-year">
+                    <option value=""></option>
+                </select>
+             </td>
+             
+            <td>ยืนยันข้อมูล</td>
+            <td><input type="submit"" id="" value="ok">
+                <input type="reset"" value="cancel">
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
